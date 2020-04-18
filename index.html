@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head
+    <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Benedek Pásztor - personal website" />
         <meta name="author" content="" />
+	    
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+	    <meta property="fb:app_id" content="903351596778801" />
+	    <!-- <meta property="fb:admins" content="1024719157"/> -->
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+				 <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+
+
+
 		<link rel="icon" href="https://benedekpasztor.github.io/assets/img/icon/icon.png">
         <title> Benedek Pásztor - personal website </title>
         <!-- Font Awesome icons (free version)-->
@@ -19,6 +29,7 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+			
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
@@ -26,9 +37,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top"> Main page </a></li>
-						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#dashboard"> Interactive dashboard </a></li>
-						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"> What is this about? </a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"> How to use? </a></li>
+  			<!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#commenting"> Get engaged </a></li> -->
+   			<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#dashboard"> Dashboard </a></li>
+			<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio"> What is this? </a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"> Tutorial </a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"> About me </a></li>
                     </ul>
                 </div>
@@ -64,22 +76,37 @@
             </div>
         </section> -->
         <!-- Services section-->
+	    <!-- <section id = "commenting">
+	    	<div class="col-lg-8 text-center">
+	                <div class="fb-comments" data-href="https://benedekpasztor.github.io/dev/index.html" data-numposts="5" data-width="100%"></div>
+		    </div>
+	   </section> -->
+
 			<section id="dashboard">
-		    <div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
+										<hr class="divider my-4" />
+
+			<div class="text-right">
+            <div class="fb-share-button" data-href="https://benedekpasztor.github.io/" data-layout="button_count" data-size="small">
+			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbenedekpasztor.github.io%2Fdev%2Findex.html&amp;src=sdkpreparse" 
+			class="fb-xfbml-parse-ignore">Share</a></div>
+                        				 				<script type="IN/Share" data-url="https://benedekpasztor.github.io/"></script></div>
+
+			
+ </div> 		    <div class="row justify-content-center">
+
+			    
+			    <div class="col-lg-8 text-center">
 
 					<h2 class="mt-0"></h>
-				<hr class="divider my-4" />
-
 				<div class='tableauPlaceholder' id='viz1586953974093' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Na&#47;Nakarosz-COVID19&#47;D1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Nakarosz-COVID19&#47;D1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Na&#47;Nakarosz-COVID19&#47;D1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1586953974093');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>				</div>
-			</div>
+				</div>
 		</section>
 		
-		
-		       <section id="portfolio">
-		
+		<!-- Call to action section-->
+        		       <section id="portfolio">
 		    <div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
+
 						<hr class="divider my-4" />
 
                         <h2 class="mt-0">What is this about?</h2>
@@ -221,13 +248,7 @@
 		</div>
 	
 
-        <!-- Call to action section-->
-        <!---<section class="page-section bg-dark text-white">
-            <div class="container text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-            </div> 
-        </section>-->
+        
         <!-- Contact section-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -242,17 +263,19 @@
 						<p class = "text-muted mb-5"> <a class"d-block" href= "https://benedekpasztor.github.io/other/BenedekPASZTOR_CV.pdf"> Find my CV here </a> </p>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row"> -->
 					
                     
-                    <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                    <div class="text-center">
+                    <!--   <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
 						<a class="d-block" href="mailto:pasztorb@gmail.com">pasztorb@gmail.com</a>
                     </div>
 					<div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                         <i class="fas fa-address-card fa-3x mb-3 text-muted"></i>
                         <div>						<a class="d-block" href="https://www.linkedin.com/in/benedek-pasztor/">LinkedIn</a>
-</div>
+</div> -->
+					<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="benedek-pasztor"><a class="LI-simple-link" href='https://hu.linkedin.com/in/benedek-pasztor?trk=profile-badge'>Benedek Pásztor</a></div>
+
                     </div>
 					
 					
